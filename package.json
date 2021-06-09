@@ -1,25 +1,29 @@
 {
-  "name": "food-festival",
+  "name": "module-18-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "assets/js/script.js",
   "scripts": {
     "webpack": "webpack --watch",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rookoyole/food-festival.git"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rookoyole/food-festival/issues"
-  },
-  "homepage": "https://github.com/rookoyole/food-festival#readme",
   "devDependencies": {
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0"
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "webpack": "^4.46.0",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-pwa-manifest": "^4.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
